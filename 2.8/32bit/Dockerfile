@@ -20,9 +20,9 @@ RUN set -x \
 	&& chmod +x /usr/local/bin/gosu \
 	&& gosu nobody true
 
-ENV REDIS_VERSION 2.8.23
-ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-2.8.23.tar.gz
-ENV REDIS_DOWNLOAD_SHA1 828fc5d4011e6141fabb2ad6ebc193e8f0d08cfa
+ENV REDIS_VERSION 2.8.24
+ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-2.8.24.tar.gz
+ENV REDIS_DOWNLOAD_SHA1 636efa8b522dfbf7f3dba372247492c11181f8e0
 
 RUN apt-get update && apt-get install -y libc6-i386 --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
