@@ -22,7 +22,7 @@ RUN set -x \
 
 ENV REDIS_VERSION 2.8.24
 ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-2.8.24.tar.gz
-ENV REDIS_DOWNLOAD_SHA1 636efa8b522dfbf7f3dba372247492c11181f8e0
+ENV REDIS_DOWNLOAD_SHA1 636efa8b522dfbf7f3dba372237492c11181f8e0
 
 # for redis-sentinel see: http://redis.io/topics/sentinel
 RUN buildDeps='gcc libc6-dev make' \
